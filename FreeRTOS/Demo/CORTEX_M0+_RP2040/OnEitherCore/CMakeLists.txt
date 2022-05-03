@@ -35,4 +35,4 @@ target_compile_definitions(on_core_one PRIVATE
         PICO_STACK_SIZE=0x1000
 )
 pico_add_extra_outputs(on_core_one)
-#pico_enable_stdio_usb(on_core_one 1)
+pico_enable_stdio_usb(on_core_one 1)
