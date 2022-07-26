@@ -113,7 +113,7 @@
 #define mainUART_COMMAND_CONSOLE_TASK_PRIORITY	( configMAX_PRIORITIES - 2 )
 
 /* The LED used by the check task. */
-#define mainCHECK_LED						( PICO_DEFAULT_LED_PIN )
+#define mainCHECK_LED						( PICO_DEFAULT_SPI )
 
 /* A block time of zero simply means "don't block". */
 #define mainDONT_BLOCK						( 0UL )

@@ -139,9 +139,9 @@ int main( void )
 static void prvSetupHardware( void )
 {
     stdio_init_all();
-    gpio_init(PICO_DEFAULT_LED_PIN);
-    gpio_set_dir(PICO_DEFAULT_LED_PIN, 1);
-    gpio_put(PICO_DEFAULT_LED_PIN, !PICO_DEFAULT_LED_PIN_INVERTED);
+    gpio_init(PICO_DEFAULT_SPI);
+    gpio_set_dir(PICO_DEFAULT_SPI, 1);
+    gpio_put(PICO_DEFAULT_SPI, !PICO_DEFAULT_LED_PIN_INVERTED);
 }
 /*-----------------------------------------------------------*/
 

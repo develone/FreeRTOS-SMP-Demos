@@ -85,7 +85,7 @@ the queue empty. */
 #define mainQUEUE_LENGTH					( 1 )
 
 /* The LED toggled by the Rx task. */
-#define mainTASK_LED						( PICO_DEFAULT_LED_PIN )
+#define mainTASK_LED						( PICO_DEFAULT_SPI )
 
 /*-----------------------------------------------------------*/
 
